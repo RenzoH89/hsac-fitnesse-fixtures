@@ -199,7 +199,7 @@ public class SeleniumDriverSetup extends SlimFixture {
         } else if (os.contains("linux")) {
             name = "linux" + File.separator + basename;
         } else if (os.contains("bsd")) {
-            name = "linux" + File.separator + basename;
+            name = "/usr/local/bin/phantomjs";
         }
         return name;
     }
