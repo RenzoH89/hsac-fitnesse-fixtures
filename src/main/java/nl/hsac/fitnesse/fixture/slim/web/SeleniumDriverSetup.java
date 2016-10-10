@@ -198,6 +198,8 @@ public class SeleniumDriverSetup extends SlimFixture {
             name = "osx" + File.separator + basename;
         } else if (os.contains("linux")) {
             name = "linux" + File.separator + basename;
+        } else if (os.contains("bsd")) {
+            name = "linux" + File.separator + basename;
         }
         return name;
     }
