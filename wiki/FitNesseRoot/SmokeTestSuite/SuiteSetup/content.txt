@@ -1,0 +1,11 @@
+!***> Settings
+!include -c .HsacExamples.SlimTests.SuiteSetUp
+
+|Import                                   |
+|nl.hsac.fitnesse.fixture.slim.web        |
+|nl.hsac.fitnesse.fixture.FixtureDebugTest|
+
+
+|script          |selenium driver setup|
+|start driver for|chrome               |
+*!

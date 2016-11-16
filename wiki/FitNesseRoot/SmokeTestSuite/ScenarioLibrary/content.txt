@@ -1,0 +1,10 @@
+|scenario|given a person is on the Tweakers website                |
+|open    |http://www.tweakers.nl                                   |
+|click   |Ja, ik geef toestemming                                  |
+|check   |page title|Tweakers - Wij stellen technologie op de proef|
+
+|scenario|when the person navigates to the Games page|
+|click   |Gaming                                     |
+
+|scenario|then the system displays the Games page            |
+|check   |page title|Games - Producten vergelijken - Tweakers|
