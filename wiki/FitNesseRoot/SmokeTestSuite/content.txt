@@ -1,12 +1,7 @@
 !contents -R2 -g -p -f -h
 
-
 !path fixtures
 !path fixtures/*.jar
+!pomFile ../pom.xml@compile
 
 !define TEST_SYSTEM {slim} 
-
-!*> Class path for these tests
-When developing and changing the fixtures, we will work based on the pom.xml:
-!pomFile ../pom.xml@compile
-*!
