@@ -2,7 +2,7 @@
 !3 ''The fully integrated stand-alone acceptance testing framework and wiki.''
 # Here is a good place to add your first page (WikiWord). For example, MyTopLevelApplicationPage
 
-OtwnTests
+OtwnTesting
 
 This installation is extended with features from the project hsac-fitnesse-fixtures. Documentation about these features can be found in HsacExamples (and their tests in HsacAcceptanceTests). 
 
@@ -15,7 +15,3 @@ To add your first "page", click the [[Edit][.FrontPage?edit]] button and add a [
 |[[Release Notes][.FitNesse.ReleaseNotes]]                     |''Find out about FitNesse's new features'' |
 
 !note Release ${FITNESSE_VERSION}
-
-!path fixtures
-!path fixtures/*.jar
-!pomFile ../pom.xml@compile
