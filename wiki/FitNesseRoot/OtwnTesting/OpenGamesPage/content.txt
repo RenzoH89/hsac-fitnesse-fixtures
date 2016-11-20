@@ -1,4 +1,4 @@
-|script            |browser test            |
+|script|browser test                        |
 |given a person is on the Tweakers website  |
 |when the person navigates to the Games page|
 |then the system displays the Games page    |
