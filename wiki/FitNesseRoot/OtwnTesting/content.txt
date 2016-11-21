@@ -1,7 +1,9 @@
 !contents -R2 -g -p -f -h
 
+!**> Fixtures and pom
 !define TEST_SYSTEM {slim} 
 
 !path fixtures
 !path fixtures/*.jar
 !pomFile ../pom.xml@compile
+**!
