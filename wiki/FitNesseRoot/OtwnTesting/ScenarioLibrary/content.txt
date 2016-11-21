@@ -7,8 +7,9 @@
 |open    |http://www.otwn.nl                               |
 |check   |page title|!-otwn | Just another WordPress site-!|
 
-|scenario|when the person navigates to the Games page|
-|click   |Gaming                                     |
+|scenario       |when the person navigates to the Games page|
+|click          |Gaming                                     |
+|take screenshot|gaming                                     |
 
 |scenario|when the navigates to the november archive|
 |click   |November 2016                             |
