@@ -17,6 +17,5 @@
 |scenario|then the system displays the Games page            |
 |check   |page title|Games - Producten vergelijken - Tweakers|
 
-
 |scenario|then the system displays the november archive                              |
 |check   |value of|xpath=//*[@id="content"]/header/h1|Monthly Archives: November 2016|
