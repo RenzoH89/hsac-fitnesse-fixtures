@@ -3,8 +3,19 @@
 |click   |Ja, ik geef toestemming                                  |
 |check   |page title|Tweakers - Wij stellen technologie op de proef|
 
+|scenario|given a person is on the otwn website            |
+|open    |http://www.otwn.nl                               |
+|check   |page title|!-otwn | Just another WordPress site-!|
+
 |scenario|when the person navigates to the Games page|
 |click   |Gaming                                     |
 
+|scenario|when the navigates to the november archive|
+|click   |November 2016                             |
+
 |scenario|then the system displays the Games page            |
 |check   |page title|Games - Producten vergelijken - Tweakers|
+
+
+|scenario|then the system displays the november archive                              |
+|check   |value of|xpath=//*[@id="content"]/header/h1|Monthly Archives: November 2016|

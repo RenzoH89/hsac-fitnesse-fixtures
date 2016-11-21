@@ -1,0 +1,4 @@
+|script             |browser test             |
+|given a person is on the otwn website        |
+|when the navigates to the november archive   |
+|then the system displays the november archive|
